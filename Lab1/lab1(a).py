@@ -1,16 +1,3 @@
-# Створення файлів із тестовими даними
-file_data = {
-    "math.txt": "90\n80\n70\n60",
-    "statistics.txt": "85\n75\n65\n55",
-    "physics.txt": "88\n78\n68\n58",
-    "student_names.txt": "Іван\nОлена\nПетро\nМарія",
-}
-
-for filename, content in file_data.items():
-    with open(filename, "w", encoding="utf-8") as f:
-        f.write(content)
-
-print("Файли успішно створені.")
 import os
 
 # Перевірка існування файлів
